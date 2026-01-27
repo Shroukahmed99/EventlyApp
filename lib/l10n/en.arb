@@ -1,0 +1,70 @@
+{
+  "@@locale": "en",
+  "en": "En",
+  "ar": "AR",
+  "englis": "English",
+  "arabic": "Arabic",
+  
+
+  "app_name": "Evently",
+
+  "login_title": "Login",
+  "email": "Email",
+  "password": "Password",
+  "login": "Login",
+  "forget_password": "Forgot Password?",
+  "dont_have_account": "Don't have an account?",
+  "create_account": "Create Account",
+  "login_with_google": "Login with Google",
+
+  "register_title": "Register",
+  "name": "Name",
+  "re_password": "Re-enter Password",
+  "already_have_account": "Already have an account?",
+  "reset_password": "Reset Password",
+
+  "onboard_personalize_title": "Personalize Your Experience",
+  "onboard_personalize_desc": "Choose your preferred theme and language to get started with a comfortable, tailored experience.",
+  "onboard_language": "Language",
+  "onboard_theme": "Theme",
+  "onboard_start_btn": "Let's Start",
+
+  "onboard_find_events_title": "Find Events That Inspire You",
+  "onboard_find_events_desc": "Dive into a world of events crafted to fit your unique interests.",
+
+  "onboard_planning_title": "Effortless Event Planning",
+  "onboard_planning_desc": "Organize events easily using our all-in-one planning tools.",
+
+  "onboard_connect_title": "Connect with Friends & Share Moments",
+  "onboard_connect_desc": "Make every event memorable by sharing experiences with others.",
+
+  "welcome_back": "Welcome Back",
+  "location": "Cairo, Egypt",
+  "search_event": "Search for Event",
+
+  "all": "All",
+  "sport": "Sport",
+  "birthday": "Birthday",
+
+  "this_is_birthday_party": "This is a Birthday Party",
+  "meeting_for_updating_dev": "Meeting for Updating the Development Method",
+
+  "holiday": "Holiday",
+  "meeting": "Meeting",
+  "exhibition": "Exhibition",
+
+  "event_location": "Event Location",
+
+  "home": "Home",
+  "map": "Map",
+  "love": "Love",
+  "profile": "Profile",
+
+  "language": "Language",
+  "theme": "Theme",
+  "light": "Light",
+  "dark": "Dark",
+  "logout": "Logout",
+
+  "or": "Or"
+}

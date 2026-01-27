@@ -1,0 +1,11 @@
+
+
+  color: "#eeeeee"
+  fullscreen: true
+  image: assets/images/Logo_colum.png
+
+
+  android_12:
+    color: "#eeeeee"
+    fullscreen: true
+    image: assets/images/Logo_colum.png

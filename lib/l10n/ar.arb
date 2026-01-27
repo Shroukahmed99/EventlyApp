@@ -1,0 +1,69 @@
+{
+  "@@locale": "ar",
+  "en": "انجليزى",
+  "ar": "عربى",
+  "englis": "انجليزى",
+  "arabic": "عربى",
+
+  "app_name": "Evently",
+
+  "login_title": "تسجيل الدخول",
+  "email": "البريد الإلكتروني",
+  "password": "كلمة المرور",
+  "login": "تسجيل الدخول",
+  "forget_password": "نسيت كلمة المرور؟",
+  "dont_have_account": "ليس لديك حساب؟",
+  "create_account": "إنشاء حساب",
+  "login_with_google": "تسجيل الدخول باستخدام جوجل",
+
+  "register_title": "إنشاء حساب",
+  "name": "الاسم",
+  "re_password": "تأكيد كلمة المرور",
+  "already_have_account": "لديك حساب بالفعل؟",
+  "reset_password": "إعادة تعيين كلمة المرور",
+
+  "onboard_personalize_title": "خصص تجربتك",
+  "onboard_personalize_desc": "اختر ثيمك ولغتك المفضلة لتبدأ بتجربة مريحة ومصممة لتناسب أسلوبك.",
+  "onboard_language": "اللغة",
+  "onboard_theme": "الثيم",
+  "onboard_start_btn": "لنبدأ",
+
+  "onboard_find_events_title": "اعثر على الفعاليات التي تلهمك",
+  "onboard_find_events_desc": "اغمر نفسك في عالم من الفعاليات المصممة لتناسب اهتماماتك الفريدة.",
+
+  "onboard_planning_title": "تخطيط الفعاليات بسهولة",
+  "onboard_planning_desc": "استمتع بتجربة تنظيم الفعاليات دون عناء باستخدام أدوات التخطيط المتكاملة.",
+
+  "onboard_connect_title": "تواصل مع الأصدقاء وشارك اللحظات",
+  "onboard_connect_desc": "اجعل كل فعالية لا تُنسى بمشاركة التجربة مع الآخرين.",
+
+  "welcome_back": "مرحبًا بعودتك",
+  "location": "القاهرة، مصر",
+  "search_event": "ابحث عن فعالية",
+
+  "all": "الكل",
+  "sport": "رياضة",
+  "birthday": "عيد ميلاد",
+
+  "this_is_birthday_party": "هذه حفلة عيد ميلاد",
+  "meeting_for_updating_dev": "اجتماع لتحديث طريقة التطوير",
+
+  "holiday": "عطلة",
+  "meeting": "اجتماع",
+  "exhibition": "معرض",
+
+  "event_location": "موقع الفعالية",
+
+  "home": "الرئيسية",
+  "map": "الخريطة",
+  "love": "المفضلة",
+  "profile": "الملف الشخصي",
+
+  "language": "اللغة",
+  "theme": "الثيم",
+  "light": "فاتح",
+  "dark": "داكن",
+  "logout": "تسجيل الخروج",
+
+  "or": "أو"
+}
