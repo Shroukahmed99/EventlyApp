@@ -37,22 +37,32 @@
   "onboard_connect_title": "تواصل مع الأصدقاء وشارك اللحظات",
   "onboard_connect_desc": "اجعل كل فعالية لا تُنسى بمشاركة التجربة مع الآخرين.",
 
-  "welcome_back": "مرحبًا بعودتك",
+  "welcome_back": "✨مرحبًا بعودتك",
   "location": "القاهرة، مصر",
   "search_event": "ابحث عن فعالية",
-
-  "all": "الكل",
+"all" : "الكل",
   "sport": "رياضة",
   "birthday": "عيد ميلاد",
+  "meeting": "اجتماع",
+  "gaming": "ألعاب",
+  "workshop": "ورشة عمل",
+  "book_club": "نادي الكتاب",
+  "exhibition": "معرض",
+  "holiday": "عطلة",
+  "eating": "طعام",
 
   "this_is_birthday_party": "هذه حفلة عيد ميلاد",
   "meeting_for_updating_dev": "اجتماع لتحديث طريقة التطوير",
 
-  "holiday": "عطلة",
-  "meeting": "اجتماع",
-  "exhibition": "معرض",
+ 
 
-  "event_location": "موقع الفعالية",
+"event_location": "موقع الحدث",
+"description": "الوصف",
+"title": "العنوان",
+"event_description": "وصف الحدث",
+"event_title": "عنوان الحدث",
+ "add_event": "اضافة الحدث",
+
 
   "home": "الرئيسية",
   "map": "الخريطة",

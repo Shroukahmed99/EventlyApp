@@ -38,22 +38,36 @@
   "onboard_connect_title": "Connect with Friends & Share Moments",
   "onboard_connect_desc": "Make every event memorable by sharing experiences with others.",
 
-  "welcome_back": "Welcome Back",
+  "welcome_back": "Welcome Back✨",
   "location": "Cairo, Egypt",
   "search_event": "Search for Event",
-
-  "all": "All",
-  "sport": "Sport",
+ "all": "All",
+   "sport": "Sport",
   "birthday": "Birthday",
+  "meeting": "Meeting",
+  "gaming": "Gaming",
+  "workshop": "Workshop",
+  "book_club": "Book Club",
+  "exhibition": "Exhibition",
+  "holiday": "Holiday",
+  "eating": "Eating",
 
   "this_is_birthday_party": "This is a Birthday Party",
   "meeting_for_updating_dev": "Meeting for Updating the Development Method",
 
-  "holiday": "Holiday",
-  "meeting": "Meeting",
-  "exhibition": "Exhibition",
+ 
 
   "event_location": "Event Location",
+  "description": "Description",
+  "title": "Title",
+  "event_description": "Event Description",
+  "event_title": "Event Title",
+  "add_event": "Add Event",
+
+  "choose_date": "Choose Date",
+  "event_date": "Event Date",
+  "choose_time": "Choose Time",
+  "event_time": "Event Time",
 
   "home": "Home",
   "map": "Map",

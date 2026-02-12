@@ -1,4 +1,4 @@
-import 'package:evently_app/core/constants/app_colors.dart';
+import 'package:evently_app/core/utils/app_colors.dart';
 import 'package:flutter/material.dart';
 
 class CustomButton extends StatelessWidget {
@@ -12,7 +12,7 @@ class CustomButton extends StatelessWidget {
     this.textColor = Colors.white,
     this.fontSize = 16,
     this.borderRadius = 12,
-    this.icon,
+    this.icon, 
     this.isLoading = false,
     this.isDisabled = false,
     this.borderColor,
@@ -26,7 +26,7 @@ class CustomButton extends StatelessWidget {
   final Color textColor;
   final double fontSize;
   final double borderRadius;
-  final IconData? icon;
+  final Widget? icon; 
   final bool isLoading;
   final bool isDisabled;
   final Color? borderColor;
@@ -60,7 +60,8 @@ class CustomButton extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   if (icon != null) ...[
-                    Icon(icon, color: textColor),
+                    icon!, 
+                    
                     const SizedBox(width: 8),
                   ],
                   Text(

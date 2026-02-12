@@ -275,7 +275,7 @@ abstract class AppLocalizations {
   /// No description provided for @welcome_back.
   ///
   /// In en, this message translates to:
-  /// **'Welcome Back'**
+  /// **'Welcome Back✨'**
   String get welcome_back;
 
   /// No description provided for @location.
@@ -308,6 +308,48 @@ abstract class AppLocalizations {
   /// **'Birthday'**
   String get birthday;
 
+  /// No description provided for @meeting.
+  ///
+  /// In en, this message translates to:
+  /// **'Meeting'**
+  String get meeting;
+
+  /// No description provided for @gaming.
+  ///
+  /// In en, this message translates to:
+  /// **'Gaming'**
+  String get gaming;
+
+  /// No description provided for @workshop.
+  ///
+  /// In en, this message translates to:
+  /// **'Workshop'**
+  String get workshop;
+
+  /// No description provided for @book_club.
+  ///
+  /// In en, this message translates to:
+  /// **'Book Club'**
+  String get book_club;
+
+  /// No description provided for @exhibition.
+  ///
+  /// In en, this message translates to:
+  /// **'Exhibition'**
+  String get exhibition;
+
+  /// No description provided for @holiday.
+  ///
+  /// In en, this message translates to:
+  /// **'Holiday'**
+  String get holiday;
+
+  /// No description provided for @eating.
+  ///
+  /// In en, this message translates to:
+  /// **'Eating'**
+  String get eating;
+
   /// No description provided for @this_is_birthday_party.
   ///
   /// In en, this message translates to:
@@ -320,29 +362,65 @@ abstract class AppLocalizations {
   /// **'Meeting for Updating the Development Method'**
   String get meeting_for_updating_dev;
 
-  /// No description provided for @holiday.
-  ///
-  /// In en, this message translates to:
-  /// **'Holiday'**
-  String get holiday;
-
-  /// No description provided for @meeting.
-  ///
-  /// In en, this message translates to:
-  /// **'Meeting'**
-  String get meeting;
-
-  /// No description provided for @exhibition.
-  ///
-  /// In en, this message translates to:
-  /// **'Exhibition'**
-  String get exhibition;
-
   /// No description provided for @event_location.
   ///
   /// In en, this message translates to:
   /// **'Event Location'**
   String get event_location;
+
+  /// No description provided for @description.
+  ///
+  /// In en, this message translates to:
+  /// **'Description'**
+  String get description;
+
+  /// No description provided for @title.
+  ///
+  /// In en, this message translates to:
+  /// **'Title'**
+  String get title;
+
+  /// No description provided for @event_description.
+  ///
+  /// In en, this message translates to:
+  /// **'Event Description'**
+  String get event_description;
+
+  /// No description provided for @event_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Event Title'**
+  String get event_title;
+
+  /// No description provided for @add_event.
+  ///
+  /// In en, this message translates to:
+  /// **'Add Event'**
+  String get add_event;
+
+  /// No description provided for @choose_date.
+  ///
+  /// In en, this message translates to:
+  /// **'Choose Date'**
+  String get choose_date;
+
+  /// No description provided for @event_date.
+  ///
+  /// In en, this message translates to:
+  /// **'Event Date'**
+  String get event_date;
+
+  /// No description provided for @choose_time.
+  ///
+  /// In en, this message translates to:
+  /// **'Choose Time'**
+  String get choose_time;
+
+  /// No description provided for @event_time.
+  ///
+  /// In en, this message translates to:
+  /// **'Event Time'**
+  String get event_time;
 
   /// No description provided for @home.
   ///

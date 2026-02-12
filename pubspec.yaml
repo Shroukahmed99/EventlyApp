@@ -18,6 +18,13 @@ dependencies:
   intl: any
   animated_switch: ^0.0.3
   provider: ^6.1.5+1
+  shared_preferences: ^2.5.4
+  flutter_screenutil: ^5.9.3
+  icons_plus: ^5.0.0
+  google_maps_flutter: ^2.14.0
+  geolocator: ^14.0.2
+  
+  
 
 
 flutter_native_splash:

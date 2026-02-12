@@ -100,7 +100,7 @@ class AppLocalizationsAr extends AppLocalizations {
       'اجعل كل فعالية لا تُنسى بمشاركة التجربة مع الآخرين.';
 
   @override
-  String get welcome_back => 'مرحبًا بعودتك';
+  String get welcome_back => '✨مرحبًا بعودتك';
 
   @override
   String get location => 'القاهرة، مصر';
@@ -118,22 +118,61 @@ class AppLocalizationsAr extends AppLocalizations {
   String get birthday => 'عيد ميلاد';
 
   @override
+  String get meeting => 'اجتماع';
+
+  @override
+  String get gaming => 'ألعاب';
+
+  @override
+  String get workshop => 'ورشة عمل';
+
+  @override
+  String get book_club => 'نادي الكتاب';
+
+  @override
+  String get exhibition => 'معرض';
+
+  @override
+  String get holiday => 'عطلة';
+
+  @override
+  String get eating => 'طعام';
+
+  @override
   String get this_is_birthday_party => 'هذه حفلة عيد ميلاد';
 
   @override
   String get meeting_for_updating_dev => 'اجتماع لتحديث طريقة التطوير';
 
   @override
-  String get holiday => 'عطلة';
+  String get event_location => 'موقع الحدث';
 
   @override
-  String get meeting => 'اجتماع';
+  String get description => 'الوصف';
 
   @override
-  String get exhibition => 'معرض';
+  String get title => 'العنوان';
 
   @override
-  String get event_location => 'موقع الفعالية';
+  String get event_description => 'وصف الحدث';
+
+  @override
+  String get event_title => 'عنوان الحدث';
+
+  @override
+  String get add_event => 'اضافة الحدث';
+
+  @override
+  String get choose_date => 'Choose Date';
+
+  @override
+  String get event_date => 'Event Date';
+
+  @override
+  String get choose_time => 'Choose Time';
+
+  @override
+  String get event_time => 'Event Time';
 
   @override
   String get home => 'الرئيسية';

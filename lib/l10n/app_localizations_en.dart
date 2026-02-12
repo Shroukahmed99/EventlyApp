@@ -100,7 +100,7 @@ class AppLocalizationsEn extends AppLocalizations {
       'Make every event memorable by sharing experiences with others.';
 
   @override
-  String get welcome_back => 'Welcome Back';
+  String get welcome_back => 'Welcome Back✨';
 
   @override
   String get location => 'Cairo, Egypt';
@@ -118,6 +118,27 @@ class AppLocalizationsEn extends AppLocalizations {
   String get birthday => 'Birthday';
 
   @override
+  String get meeting => 'Meeting';
+
+  @override
+  String get gaming => 'Gaming';
+
+  @override
+  String get workshop => 'Workshop';
+
+  @override
+  String get book_club => 'Book Club';
+
+  @override
+  String get exhibition => 'Exhibition';
+
+  @override
+  String get holiday => 'Holiday';
+
+  @override
+  String get eating => 'Eating';
+
+  @override
   String get this_is_birthday_party => 'This is a Birthday Party';
 
   @override
@@ -125,16 +146,34 @@ class AppLocalizationsEn extends AppLocalizations {
       'Meeting for Updating the Development Method';
 
   @override
-  String get holiday => 'Holiday';
-
-  @override
-  String get meeting => 'Meeting';
-
-  @override
-  String get exhibition => 'Exhibition';
-
-  @override
   String get event_location => 'Event Location';
+
+  @override
+  String get description => 'Description';
+
+  @override
+  String get title => 'Title';
+
+  @override
+  String get event_description => 'Event Description';
+
+  @override
+  String get event_title => 'Event Title';
+
+  @override
+  String get add_event => 'Add Event';
+
+  @override
+  String get choose_date => 'Choose Date';
+
+  @override
+  String get event_date => 'Event Date';
+
+  @override
+  String get choose_time => 'Choose Time';
+
+  @override
+  String get event_time => 'Event Time';
 
   @override
   String get home => 'Home';

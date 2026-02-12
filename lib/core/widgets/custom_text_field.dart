@@ -1,62 +1,154 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-class CustomTextField extends StatelessWidget {
-  final String? hintText;
-  final String? labelText;
-  final String? initialValue;
-  final TextEditingController? controller;
-  final bool obscureText;
-  final bool enabled;
-  final TextInputType keyboardType;
-  final int? maxLines;
-  final int? maxLength;
-  final IconData? prefixIcon;
-  final IconData? suffixIcon;
-  final void Function(String)? onChanged;
-  final String? Function(String?)? validator;
-  final void Function()? onSuffixTap;
-
+class CustomTextField extends StatefulWidget {
   const CustomTextField({
-    Key? key,
-    this.hintText,
-    this.labelText,
-    this.initialValue,
-    this.controller,
+    required this.controller,
+    this.filled = false,
     this.obscureText = false,
-    this.enabled = true,
-    this.keyboardType = TextInputType.text,
-    this.maxLines = 1,
-    this.maxLength,
-    this.prefixIcon,
-    this.suffixIcon,
-    this.onChanged,
+    this.readOnly = false,
+    super.key,
     this.validator,
-    this.onSuffixTap,
-  }) : super(key: key);
+    this.fillColor,
+    this.prefixIcon,
+    this.hintText,
+    this.keyboardType,
+    this.hintStyle,
+    this.overrideValidator = false,
+    this.onChanged,
+    this.maxLength,
+    this.maxLines = 1,
+    this.textColor,
+    this.enabledBorderColor,
+    this.focusedBorderColor,
+    this.errorBorderColor,
+    this.focusedErrorBorderColor,
+    this.prefixIconColor,
+    this.suffixIconColor,
+    this.showPasswordIcon = false, 
+  });
+
+  final TextEditingController controller;
+  final bool filled;
+  final bool obscureText;
+  final bool readOnly;
+  final String? hintText;
+  final TextInputType? keyboardType;
+  final TextStyle? hintStyle;
+  final bool overrideValidator;
+  final String? Function(String?)? validator;
+  final void Function(String)? onChanged;
+  final int? maxLength;
+  final int? maxLines;
+  final Color? textColor;
+  final Color? fillColor;
+
+  final Color? enabledBorderColor;
+  final Color? focusedBorderColor;
+  final Color? errorBorderColor;
+  final Color? focusedErrorBorderColor;
+
+  final Widget? prefixIcon;
+  final Color? prefixIconColor;
+  final Color? suffixIconColor;
+
+  final bool showPasswordIcon; 
+  
+
+  @override
+  State<CustomTextField> createState() => _CustomTextFieldState();
+}
+
+class _CustomTextFieldState extends State<CustomTextField> {
+  late bool _obscureText;
+
+  @override
+  void initState() {
+    super.initState();
+    _obscureText = widget.obscureText;
+  }
+
+  void _togglePassword() {
+    setState(() {
+      _obscureText = !_obscureText;
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
     return TextFormField(
-      controller: controller,
-      initialValue: initialValue,
-      obscureText: obscureText,
-      enabled: enabled,
-      keyboardType: keyboardType,
-      maxLines: maxLines,
-      maxLength: maxLength,
-      validator: validator,
-      onChanged: onChanged,
+      controller: widget.controller,
+      obscureText: _obscureText,
+      cursorColor: widget.textColor,
+      style: TextStyle(
+        fontSize: 16.sp,
+        fontWeight: FontWeight.w500,
+        color: widget.textColor,
+      ),
+      validator: widget.overrideValidator ? null : widget.validator,
+      onChanged: widget.onChanged,
+      keyboardType: widget.keyboardType,
+      maxLines: widget.maxLines,
+      maxLength: widget.maxLength,
+      readOnly: widget.readOnly,
       decoration: InputDecoration(
-        labelText: labelText,
-        hintText: hintText,
-        prefixIcon: prefixIcon != null ? Icon(prefixIcon) : null,
-        suffixIcon: suffixIcon != null
-            ? GestureDetector(
-                onTap: onSuffixTap,
-                child: Icon(suffixIcon),
+        border: OutlineInputBorder(
+          borderRadius: BorderRadius.circular(15),
+        ),
+        enabledBorder: OutlineInputBorder(
+          borderRadius: BorderRadius.circular(15),
+          borderSide: BorderSide(
+            color: widget.enabledBorderColor ?? Colors.grey,
+            width: 2,
+          ),
+        ),
+        focusedBorder: OutlineInputBorder(
+          borderRadius: BorderRadius.circular(15),
+          borderSide: BorderSide(
+            color: widget.focusedBorderColor ?? Colors.grey,
+            width: 2,
+          ),
+        ),
+        errorBorder: OutlineInputBorder(
+          borderRadius: BorderRadius.circular(15),
+          borderSide: BorderSide(
+            color: widget.errorBorderColor ?? Colors.red,
+            width: 2,
+          ),
+        ),
+        focusedErrorBorder: OutlineInputBorder(
+          borderRadius: BorderRadius.circular(15),
+          borderSide: BorderSide(
+            color: widget.focusedErrorBorderColor ?? Colors.red,
+            width: 2,
+          ),
+        ),
+        contentPadding:
+            const EdgeInsets.symmetric(horizontal: 20, vertical: 16),
+        filled: widget.filled,
+        fillColor: widget.fillColor,
+        hintText: widget.hintText,
+        hintStyle: widget.hintStyle ??
+            TextStyle(
+              color: Colors.grey,
+              fontWeight: FontWeight.w400,
+              fontSize: 14.sp,
+            ),
+        prefixIcon: widget.prefixIcon != null
+            ? IconTheme(
+                data: IconThemeData(color: widget.prefixIconColor ?? Colors.grey),
+                child: widget.prefixIcon!,
               )
             : null,
-        border: OutlineInputBorder(borderRadius: BorderRadius.circular(12)),
+        suffixIcon: widget.showPasswordIcon
+            ? IconButton(
+                onPressed: _togglePassword,
+                icon: Icon(
+                  _obscureText ? Icons.visibility : Icons.visibility_off,
+                  color: widget.suffixIconColor ?? Colors.grey,
+                ),
+              )
+            : null,
       ),
     );
   }
